@@ -71,6 +71,16 @@ ol li {
     color: #454545;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse {
+    width: 100%;
+    background-color: #b8c8d6;
+}
+
 section {
     background-color: #fff;
     display: block;
@@ -129,6 +139,7 @@ footer small {
     display: block;
 }
 
-.cog-branding__powered {
-    visibility: hidden !important;
+.cognito {
+    height: 380px !important;
+    overflow: hidden;
 }
