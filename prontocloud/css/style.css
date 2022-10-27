@@ -30,6 +30,11 @@ header {
     border-bottom: 1px solid #254159;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1 {
     font-size: 2.4rem;
     color: #254159;
@@ -111,6 +116,19 @@ section article {
     width: 70%;
 }
 
+#tenho-interesse {
+    background-color: #b8c8d6;
+    width: 100%;
+}
+
+#tenho-interesse form, .cog-form__container .cog-form__content {
+    background-color: #b8c8d6 !important;
+}
+
+.cog-heading, .cog-label {
+    color: #254159 !important;
+}
+
 footer {
     background-color: #254159;
     color: #fff;
@@ -128,4 +146,9 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+
+.cognito {
+    height: 415px;
+    overflow: hidden;
 }
