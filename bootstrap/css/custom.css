@@ -1,0 +1,26 @@
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+input,
+textarea {
+    margin: 1rem;
+}
+
+#logotipo {
+    width: 500px;
+}
+
+body {
+    background-color: #454545;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
